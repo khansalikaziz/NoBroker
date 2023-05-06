@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081443401649",
+    "project_id": "nobroker-e81fc",
+    "storage_bucket": "nobroker-e81fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081443401649:android:7a82a4d1546e5626a40790",
+        "android_client_info": {
+          "package_name": "com.salik.nobrokerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081443401649-s6ac66295604h40femnkubifsumplkmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEsSNcedtj9RhVa0CDPP413_D8FJPO_Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081443401649-s6ac66295604h40femnkubifsumplkmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PolicyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Placement Policy"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Privacy Policy of NoBrokerApp"
+                android:textColor="#050505"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1) For the purpose of this Agreement and attachments thereto and all renewals,  Confidential Information  means all financial, commercial, technical, operational, staff, management and other information, data and know-how relating to the Project or to a party (the  Disclosing Party  herein the Company ) or any other members of the Disclosing Party's group of companies ( including, without limitation, as to products and services, assets, customers, date and database, suppliers or employees), which may be supplied to or may otherwise com e into the possession of the other (the  Receiving Party , herein the User ), whether orally or in writing or in any other form, and which is confidential or proprietary in nature or otherwise expressed by the Disclosing Party or by any of its Associates to be confidential, and not generally available to the public.\n\n
+2) The Receiving Party shall keep confidential and secret and not disclose to any third party the Confidential Information nor any part of it, except to any of the Receiving Party's Associates, if required and upon prior permission in writing from the Disclosing Party. The Receiving Party agrees to take all possible precautions with regard to protecting confidential information from any third party and shall ensure that all its Associates to whom such disclosure e is made will act in accordance with the terms of this Agreement as if each of them were a party to this Agreement, and if required obtain a written statement from each of its employees/associates having access to such Proprietary Information undertaking to abide by the confidentiality conditions. All Proprietary Information shall be kept separate and exclusive and at the usual place of business (or residence as the case may be) of the Receiving Party.
+\n
+\n
+3) Further no use, reproduction, transformation or storage of the Proprietary Information shall be made by the User without the prior written permission of the Company, except where required to be disclosed pursuant to any applicable law or legal process issued by any court or the rules of any competent regulatory body.
+\n\n
+4) On request of the Disclosing Party made at any time, including at the time of termination of this Agreement, the Receiving Party shall deliver back to the Disclosing Party all original documents, records, data and other material in the possession, custody or control of the Receiving Party that bear or incorporate any part of the Proprietary Information. The obligations of confidentiality set out in this Agreement shall continue to be in force notwithstanding termination of this Agreement for any reason whatsoever.
+\n
+\n
+5) All information and data submitted by the User shall become the property of the Company. However all such information shall be kept strictly confidential and the Company shall not, subject to Violation of Terms and Conditions clause, release any such data and information to any third party without the prior consent of the User.\n\n
+7) The User has access to only his own data and information stored in the database at Magicbricks.com (subject to prior confirmation of identity) and nothing more. The User may edit or amend such data and information from time to time.
+" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

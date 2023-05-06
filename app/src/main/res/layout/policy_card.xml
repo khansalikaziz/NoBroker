@@ -1,0 +1,51 @@
+<androidx.cardview.widget.CardView android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="200dp"
+    android:minWidth="300dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="#FF03DAC5"
+    app:cardCornerRadius="16dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:maxWidth="100dp"
+        android:src="@drawable/privacy" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="𝐏𝐎𝐋𝐈𝐂𝐘"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="0dp"
+        />
+
+
+</androidx.cardview.widget.CardView>
+
+
+

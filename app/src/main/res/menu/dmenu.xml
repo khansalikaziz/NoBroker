@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/userprof"
+            android:icon="@drawable/user"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/userRes"
+            android:icon="@drawable/resume"
+            android:title="View Gov id" />
+        <item
+            android:id="@+id/userann"
+            android:icon="@drawable/writing"
+            android:title="Add Place" />
+
+        <item
+            android:id="@+id/userlog"
+            android:icon="@drawable/file"
+            android:title="View added Place" />
+    </group>
+
+</menu>
